@@ -242,8 +242,8 @@ select {
 
 
 @media only screen 
-  and (min-device-width: 834px) 
-  and (max-device-height: 1112px) 
+  and (min-device-width: 1112px) 
+  and (max-device-width: 1112px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
     #large-devices {
@@ -277,8 +277,8 @@ select {
 }
 
 @media only screen 
-and (min-device-width: 834px) 
-and (max-device-height: 1112px) 
+  and (min-device-width: 834px) 
+  and (max-device-width: 834px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 2) {
     #large-devices {
@@ -310,6 +310,13 @@ and (max-device-height: 1112px)
         display: block;
     }
 }
+/* @media only screen 
+and (min-device-width: 834px) 
+and (max-device-height: 1112px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    
+} */
 
 /* @media only screen 
   and (min-device-width: 834px) 
