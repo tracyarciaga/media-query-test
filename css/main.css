@@ -68,6 +68,16 @@ select {
 #extra-large-devices{
     display: none;
 }
+#ipad-105-portrait {
+  display: none;
+}
+#desktop-retina {
+  display: none;
+}
+
+#ipad-105-land {
+    display: none;
+}
 
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -88,6 +98,16 @@ select {
   }
 
   #extra-large-devices{
+      display: none;
+  }
+  #ipad-105-portrait {
+    display: none;
+  }
+  #desktop-retina {
+    display: none;
+  }
+
+  #ipad-105-land {
       display: none;
   }
 }
@@ -112,6 +132,16 @@ select {
   #extra-large-devices{
       display: none;
   }
+  #ipad-105-portrait {
+    display: none;
+  }
+  #desktop-retina {
+    display: none;
+  }
+
+  #ipad-105-land {
+      display: none;
+  }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -132,6 +162,16 @@ select {
   }
 
   #extra-large-devices{
+      display: none;
+  }
+  #ipad-105-portrait {
+    display: none;
+  }
+  #desktop-retina {
+    display: none;
+  }
+
+  #ipad-105-land {
       display: none;
   }
 }
@@ -156,6 +196,16 @@ select {
   #extra-large-devices{
       display: none;
   }
+  #ipad-105-portrait {
+    display: none;
+  }
+  #desktop-retina {
+    display: none;
+  }
+
+  #ipad-105-land {
+      display: none;
+  }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
@@ -178,8 +228,88 @@ select {
   #extra-large-devices{
       display: block;
   }
+  #ipad-105-portrait {
+    display: none;
+  }
+  #desktop-retina {
+    display: none;
+  }
+
+  #ipad-105-land {
+      display: none;
+  }
 }
 
+
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-height: 1112px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #large-devices {
+      display: none;
+    }
+    #medium-devices {
+      display: none;
+    }
+  
+    #small-devices {
+      display: none;
+    }
+  
+    #extra-small-devices {
+      display: none;
+    }
+  
+    #extra-large-devices{
+        display: none;
+    }
+    #ipad-105-portrait {
+        display: block;
+    }
+    #desktop-retina {
+      display: none;
+    }
+    
+    #ipad-105-land {
+        display: none;
+    }
+}
+
+@media only screen 
+and (min-device-width: 834px) 
+and (max-device-height: 1112px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #large-devices {
+      display: none;
+    }
+    #medium-devices {
+      display: none;
+    }
+  
+    #small-devices {
+      display: none;
+    }
+  
+    #extra-small-devices {
+      display: none;
+    }
+  
+    #extra-large-devices{
+        display: none;
+    }
+    #ipad-105-portrait {
+        display: none;
+    }
+    #desktop-retina {
+      display: none;
+    }
+    
+    #ipad-105-land {
+        display: block;
+    }
+}
 
 /* @media only screen 
   and (min-device-width: 834px) 
