@@ -213,8 +213,8 @@ and (max-device-height: 1112px)
         display: none;
     }
 }
-
-/* ----------- Retina Screens ----------- */
+*/
+/* ----------- Retina Screens ----------- 
 @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
@@ -229,4 +229,5 @@ and (max-device-height: 1112px)
     #ipad-105-land {
         display: none;
     }
-} */
+} 
+*/
